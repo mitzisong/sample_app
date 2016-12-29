@@ -46,5 +46,10 @@ group :development, :test do
 
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+
+group :production do
+  gem 'pg', '0.18.4'
+end
+
 end
 
