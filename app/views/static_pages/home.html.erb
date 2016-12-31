@@ -1,13 +1,14 @@
-  <div class="jumbo">
-    <h2>MITZI'S CUPCAKES</h2>
-    <div id="formcontainer">
-        <div class="column">
-            <!-- <img src="app/assets/images/singlecarrot.jpg" class="piped">  -->
-            <%=image_tag("singlecarrot.jpg", height: 400, width: 620)%>
-        </div>
-    <h3></h3>
-    </div>
-  </div>
-  <div class="column right-align order-information">
-    <div class="motto">No subs<span style="color: #990033">titutes.</span></div><br><br><div class="motto2">No sho<span style="color: #990033">rtcuts.</span></div><br><br><div class="motto3">With extra s<span style="color: #990033">miles on top.</span>
-  </div>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
