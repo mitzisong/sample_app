@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'will_paginate', '3.0.7'
 
 gem 'bootstrap-sass', '3.3.6'
 
@@ -10,6 +11,8 @@ gem 'rails_12factor'
 gem 'bcrypt',         '3.1.11'
 
 gem 'puma'
+
+gem "intercom-rails"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
