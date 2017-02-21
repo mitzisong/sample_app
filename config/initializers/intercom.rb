@@ -18,7 +18,7 @@ IntercomRails.config do |config|
   config.enabled_environments = ["development", "production"]
 
   #intercom rails gem for visitors
-  #config.include_for_logged_out_users = true
+  config.include_for_logged_out_users = true
 
   # == Current user method/variable
   # The method/variable that contains the logged in user in your controllers.
