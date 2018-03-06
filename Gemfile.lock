@@ -60,6 +60,8 @@ GEM
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     i18n (0.8.4)
+    intercom (3.5.17)
+      json (>= 1.8)
     intercom-rails (0.3.5)
       activesupport (> 3.0)
     jbuilder (2.7.0)
@@ -162,6 +164,7 @@ DEPENDENCIES
   bootstrap-sass (= 3.3.6)
   byebug
   coffee-rails (~> 4.1.0)
+  intercom (~> 3.5.10)
   intercom-rails
   jbuilder (~> 2.0)
   jquery-rails
