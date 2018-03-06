@@ -114,4 +114,4 @@
   #
   # If you'd like to hide default launcher button uncomment this line
   # config.hide_default_launcher = true
-end
+# end
