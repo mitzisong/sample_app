@@ -1,7 +1,7 @@
-IntercomRails.config do |config|
+# IntercomRails.config do |config|
   # == Intercom app_id
   #
-  config.app_id = ENV["INTERCOM_APP_ID"] || "u3oa0lqx"
+  # config.app_id = ENV["INTERCOM_APP_ID"] || "eze5yygu"
 
   # == Intercom session_duration
   #
@@ -15,10 +15,10 @@ IntercomRails.config do |config|
   # == Enabled Environments
   # Which environments is auto inclusion of the Javascript enabled for
   #
-  config.enabled_environments = ["development", "production"]
+  # config.enabled_environments = ["development", "production"]
 
   #intercom rails gem for visitors
-  config.include_for_logged_out_users = true
+  # config.include_for_logged_out_users = true
 
   # == Current user method/variable
   # The method/variable that contains the logged in user in your controllers.
