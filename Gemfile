@@ -14,7 +14,7 @@ gem 'bcrypt',         '3.1.11'
 
 gem 'puma'
 
-# gem "intercom-rails"
+gem "intercom-rails"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# gem 'intercom', '~> 3.5.10'
+gem 'intercom', '~> 3.5.10'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
